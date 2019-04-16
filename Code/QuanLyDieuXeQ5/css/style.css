@@ -1,0 +1,468 @@
+﻿.title {
+text-align: center;
+    color: #0084d2;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: -webkit-body;
+	padding-top: 13px;
+}
+
+.title1 {
+	    font-size: 20px;
+    color: #868989;
+    padding-top: 6px;
+}
+.paddingbuttom30{
+    margin-bottom:30px;
+    border-bottom:1px solid #868989;
+}
+.imgedit {
+	    width: 15px;
+    margin-top: -2px;
+    margin-right: 3px;
+}
+.imgcategory {
+	width: 18px;
+    margin-top: -3px;
+    margin-right: 3px;
+	
+}
+.imgcategorymenu {
+	width: 18px;
+    margin-top: -4px;
+    margin-right: 5px;
+	
+}
+.th {
+    background-color: #1c9c13;
+    color: white;
+}
+.control-label{
+    float: left;
+    font-weight:bold;
+    padding-top: 5px;
+}
+.divAnh{
+    width: 100px;
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.imgDel
+{
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    cursor: pointer;
+    color: red;
+}
+
+.coninput1 {
+	float:left;
+	width: 47.35%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.coninput2 {
+	float:left;
+	width: 47.5%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.titleinput {
+	float:left;width:30%;padding-top: 5px;text-align: right;padding-right: 30px;
+}
+.dvnull {
+	float:left;
+	width: 4%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.txtinput {
+	float:left;width:70%;
+}
+.titlecongty {
+text-transform: uppercase;font-weight: bold;
+}
+
+@media (max-width:991px) {
+	.titlecongty {
+		display:none;
+	}
+	.coninput1 {
+		width: 100%;
+	}
+	.coninput2 {
+		width: 100%;
+	}
+	.titleinput {
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		padding-left: 15px;
+	}
+	.dvnull {
+		display:none;
+	}
+	.txtinput {
+		width: 100%;
+		padding: 5px 15px;
+	}
+}
+@media (max-width:1280px) {
+	/*.coninput1 {
+		float:left;
+		width: 100%;
+	}
+	.coninput2 {
+		float:left;
+		width: 100%;
+	}
+	.titleinput {
+		float: left;
+		width: 23%;
+		padding-top: 10px;
+		text-align: right;
+		padding-left: 15px;
+	}
+	.dvnull {
+		display:none;
+	}
+	.txtinput {
+		width: 77%;
+		padding: 5px 15px;
+	}*/
+}
+.tot
+{
+	background-color:#1ac51a;
+}
+.canhbao
+{
+	background-color:#f9f921;	
+}
+.nguyhiem
+{
+	background-color:#f72525;
+}
+.noxau
+{
+	background-color:#3c3b3b;
+}
+.black_overlay{
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 5px solid #00a65a;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+	border-radius:3px;
+}
+.circle {
+			width: 100px;
+			height: 100px;
+			background: #C30;
+			text-align: center;
+			padding: 50px;
+			color: #fff;
+			-moz-border-radius: 100px;
+			-webkit-border-radius: 100px;
+			border-radius: 100px;
+		}
+.imgCommand
+{
+    width:20px; cursor:pointer;
+}
+.footertable
+{
+    text-align: center;
+    /*background-color: white;*/
+}
+.notepaging {
+    padding: 5px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #FDFDFD;
+    box-shadow: 0px 0px 0.7px 0px #737373;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+    height: 33px;
+    margin: auto;
+}
+.notepaging:hover
+{
+    background-color: #3c8dbc;
+    color:white;
+}
+.notepagingactive {
+    padding: 5px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #3c8dbc;
+    box-shadow: 0px 0px 2px 0.1px #333;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+    height: 33px;
+    margin: auto;
+    color:white;
+}
+.notepaginnone
+{
+    display:none;
+}
+
+.maginButton
+{
+    margin-bottom:10px;
+}
+
+
+.activeMenu
+{
+    background-color:#0084d2;
+}
+
+.activeSubMenu
+{
+    background-color:#41A5C3;
+}
+
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+
+.CanhPhai
+{
+    text-align:right;
+}
+
+.NenTrang
+{
+    background-color:white;
+}
+
+
+.TieuDeBoLocTimKiem
+{
+    background-color:#1c9c13; 
+    color:white; 
+    padding: 7px 2px 8px 20px; 
+    font-size: 14px;
+    font-weight: bold; 
+    margin-left: -8px; 
+    margin-right: 8px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.SoXuong
+{
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    outline: none!important;
+}
+
+
+
+.Bang
+{
+    display: table;
+    width:100%
+}
+
+.Cot30
+{
+    display: table-cell;
+    width:30%;
+}
+
+.Cot70
+{
+    display: table-cell;
+    width:70%;
+}
+
+
+.BodyBoLocTimKiem
+{
+    padding-left:10px; 
+    padding-right:10px;
+}
+
+.DanhSachBoLocTimKiem
+{
+    padding-bottom:8px;
+    font-weight:bold;
+}
+
+.FixIcon
+{
+    color:white;
+    font-size:larger;
+}
+
+
+.TextBoxInTable
+{
+    border:none;
+    border-bottom: solid 1px #00a65a; 
+}
+
+
+.text
+{
+    font-weight: bold;
+    color: #5f5757;
+    font-size:13px;
+}
+
+.text a:hover
+{
+    color:white;
+}
+
+.SizeLon
+{
+    font-size:larger;
+
+}
+
+
+.FieldHienThi
+{
+    border-bottom:solid 1px #ccd0d0;
+    padding-top:10px;
+}
+
+.KhongXuongDong
+{
+    white-space:nowrap;
+}
+
+
+#menuPhai:hover
+{
+    background-color:#0083d2;
+}
+
+
+.IconSelect2, .nofix
+{
+    padding: 9px;
+    background-color: whitesmoke;
+    color:green;
+    font-size:larger;
+    position:absolute; 
+    top:1px; 
+    right:1px;
+    cursor:pointer;
+}
+
+
+.popupmini
+{
+    width:480px;
+    left:50%;
+}
+
+
+@media (max-width:992px)
+{
+    .IconSelect2
+    {
+         top:31px;
+    }
+
+     .modal
+    {   
+        left:30%;
+        width: 50%;    
+    }
+
+}
+
+@media (max-width:570px)
+{
+   
+    .modal
+    {   
+        left:20%;
+        width: 60%;    
+    }
+
+}
+
+
+@media (max-width:480px)
+{
+   
+    .modal
+    {   
+        left:3%;
+        width: 95%;
+    }
+
+}
+
+.login-box {
+    width: 420px;
+    margin: 7% auto;
+}
+@media (max-width: 414px){
+    .login-box, .register-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all, not all, not all, not all, not all {
+	.login-box, .register-box {
+		width: 90%;
+		margin-top: 20%;
+	}
+}*/

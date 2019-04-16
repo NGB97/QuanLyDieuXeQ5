@@ -1,0 +1,6 @@
+﻿1. Nhóm admin:
+   - Admin: full
+   - AdminBac: Admin miền bắc
+   - AdminTrung: Admin miền trung
+   - AdminNam: Admin miền nam
+2. Cấp đại lý: 1, 2, 3
